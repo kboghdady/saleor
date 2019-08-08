@@ -148,6 +148,7 @@ const CategoryList = withStyles(styles, { name: "CategoryList" })(
                     <Checkbox
                       checked={isSelected}
                       disabled={disabled}
+                      disableClickPropagation
                       onChange={() => toggle(category.id)}
                     />
                   </TableCell>

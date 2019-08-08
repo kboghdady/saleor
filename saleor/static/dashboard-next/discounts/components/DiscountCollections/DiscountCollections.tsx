@@ -123,6 +123,7 @@ const DiscountCollections = withStyles(styles, {
                     <Checkbox
                       checked={isSelected}
                       disabled={disabled}
+                      disableClickPropagation
                       onChange={() => toggle(collection.id)}
                     />
                   </TableCell>

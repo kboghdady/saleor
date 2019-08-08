@@ -44,6 +44,7 @@ All notable, unreleased changes to this project will be documented in this file.
 - Refactor account mutations - #4510 by @fowczarek
 - Users cannot add multiple times the same product into a collection anymore - #4518 by @NyanKiyoshi
 - Enterprise-grade attributes management - #4351 by @dominik-zeglen and @NyanKiyoshi
+- Fix bulk actions - #4618 by @dominik-zeglen
 
 ## 2.8.0
 
